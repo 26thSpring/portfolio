@@ -1,0 +1,24 @@
+@import "~open-color/open-color";
+@import "~include-media/dist/include-media";
+
+$breakpoints: (
+  small: 700px,
+  medium: 1000px,
+  large: 1300px,
+  big: 1700px,
+  huge: 2000px
+);
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
