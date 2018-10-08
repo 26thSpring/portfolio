@@ -15,6 +15,10 @@
   width: 75rem;
 
   @include media("<medium") {
-    width: 100%;
+    width: calc(100% - 2rem);
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }

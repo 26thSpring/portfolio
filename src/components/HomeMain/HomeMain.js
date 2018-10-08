@@ -15,7 +15,7 @@ const HomeMain = () => {
                전공했지만 프론트엔드의 매력에 빠져서 포지션을 옮겼습니다.
                <br />
                새로운 언어, 기술을 배우는 것을 정말 좋아해서 계속해서 변화하고
-               성장중인 프론트엔드에 발 맞춰 빠르게 학습하며 개발 중입니다.
+               성장중인 프론트엔드에 발맞춰 빠르게 학습하며 개발 중입니다.
                <br />
             </div>
             <div className="career">
@@ -46,7 +46,7 @@ const HomeMain = () => {
                   <img src={devlog} alt="devlog" />
                   <div className="portfolio_info">
                      <div className="portfolio_title">
-                        devlog ( 마크다운 에디터 개발일지 블로그 )
+                        devlog ( 마크다운 에디터를 적용한 개발일지 블로그 )
                      </div>
                      <div className="portfolio_regdate">
                         2018년 9월 ~ 개발 중
@@ -66,7 +66,7 @@ const HomeMain = () => {
                         </div>
                         <div className="stack">
                            <div className="dot orange" />
-                           Scss
+                           sass
                         </div>
                         <div className="stack">
                            <div className="dot cyan" />
@@ -82,7 +82,9 @@ const HomeMain = () => {
                <div className="portfolio">
                   <img src={tetris} alt="tetris" />
                   <div className="portfolio_info">
-                     <div className="portfolio_title">테트리스</div>
+                     <div className="portfolio_title">
+                        DOM / Javascript 객체 기반 테트리스
+                     </div>
                      <div className="portfolio_regdate">
                         2018년 5월 ~ 2018년 6월
                      </div>
@@ -105,7 +107,9 @@ const HomeMain = () => {
                <div className="portfolio">
                   <img src={sort} alt="tetris" />
                   <div className="portfolio_info">
-                     <div className="portfolio_title">소팅 프로그램</div>
+                     <div className="portfolio_title">
+                        애니메이션 기반 소팅 프로그램
+                     </div>
                      <div className="portfolio_regdate">
                         2018년 5월 ~ 2018년 6월
                      </div>
